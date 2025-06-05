@@ -1,9 +1,3 @@
-images:
-- added: '2025-06-05 08:25:38.627658'
-  iiif: true
-  thumbnail: http://157.136.252.188:8182/iiif/2/puddled%2FR217-1-macrox5.jpg/full/120,/0/default.jpg
-  title: ''
-  url: http://157.136.252.188:8182/iiif/2/puddled%2FR217-1-macrox5.jpg/info.json
-  user: Thomas Huet
+images: []
 settings: {}
 version: '2.1'
