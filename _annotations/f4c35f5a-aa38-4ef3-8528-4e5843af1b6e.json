@@ -1,0 +1,37 @@
+---
+canvas: "https://zoometh.github.io/annonatate/img/derivatives/iiif/eed/canvas/eed-1"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "My second annotation",
+            "purpose": "commenting",
+            "creator": {
+                "id": "zoometh",
+                "name": "Thomas Huet"
+            },
+            "created": "2025-06-05T08:47:57.916Z",
+            "modified": "2025-06-05T08:48:06.473Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://zoometh.github.io/annonatate/img/derivatives/iiif/eed/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://zoometh.github.io/annonatate/img/derivatives/iiif/eed/canvas/eed-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"538.3904266357422\" cy=\"139.46739196777344\" rx=\"124.03083801269531\" ry=\"47.20710754394531\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "f4c35f5a-aa38-4ef3-8528-4e5843af1b6e.json",
+    "motivation": "commenting"
+}
