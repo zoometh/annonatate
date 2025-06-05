@@ -1,9 +1,3 @@
-images:
-- added: '2025-06-05 08:34:33.960613'
-  iiif: false
-  thumbnail: https://en.wikipedia.org/wiki/Herri_met_de_Bles#/media/File:Herri_met_de_Bles_-_Landscape_with_a_Foundry.jpg
-  title: ''
-  url: https://en.wikipedia.org/wiki/Herri_met_de_Bles#/media/File:Herri_met_de_Bles_-_Landscape_with_a_Foundry.jpg
-  user: Thomas Huet
+images: []
 settings: {}
 version: '2.1'
