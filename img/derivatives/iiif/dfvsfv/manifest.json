@@ -1,12 +1,9 @@
 ---
-added: 2025-06-05 08&#58;54&#58;33.723679
-thumbnail: https://zoometh.github.io/annonatate/img/derivatives/iiif/dfvsfv/tempimage/full/144,/0/default.jpg
-title: dfvsfv
-user: Thomas Huet
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://zoometh.github.io/annonatate/img/derivatives/iiif/dfvsfv/manifest.json",
+  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/dfvsfv/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -24,7 +21,7 @@ user: Thomas Huet
   "viewingDirection": "left-to-right",
   "items": [
     {
-      "id": "https://zoometh.github.io/annonatate/img/derivatives/iiif/dfvsfv/canvas/dfvsfv-1",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/dfvsfv/canvas/dfvsfv-1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -33,7 +30,7 @@ user: Thomas Huet
       },
       "thumbnail": [
         {
-          "id": "https://zoometh.github.io/annonatate/img/derivatives/iiif/dfvsfv/tempimage/full/144,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/dfvsfv/tempimage/full/144,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -41,30 +38,36 @@ user: Thomas Huet
       "width": 9230,
       "items": [
         {
-          "id": "https://zoometh.github.io/annonatate/img/derivatives/iiif/dfvsfv/page/p1/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/dfvsfv/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://zoometh.github.io/annonatate/img/derivatives/iiif/dfvsfv/annotation/p0001-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/dfvsfv/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://zoometh.github.io/annonatate/img/derivatives/iiif/dfvsfv/tempimage/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/dfvsfv/tempimage/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 11437,
                 "width": 9230,
                 "service": [
                   {
-                    "id": "https://zoometh.github.io/annonatate/img/derivatives/iiif/dfvsfv/tempimage",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/dfvsfv/tempimage",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://zoometh.github.io/annonatate/img/derivatives/iiif/dfvsfv/canvas/dfvsfv-1"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/dfvsfv/canvas/dfvsfv-1"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/dfvsfv-1-list.json",
+          "type": "AnnotationPage"
         }
       ]
     }
