@@ -1,0 +1,38 @@
+---
+canvas: "https://zoometh.github.io/annonatate/img/derivatives/iiif/dfvsfv/canvas/dfvsfv-1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "artefacts",
+            "purpose": "commenting",
+            "creator": {
+                "id": "zoometh",
+                "name": "Thomas Huet"
+            },
+            "created": "2025-12-17T14:21:20.232Z",
+            "modified": "2025-12-17T14:21:22.511Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://zoometh.github.io/annonatate/img/derivatives/iiif/dfvsfv/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://zoometh.github.io/annonatate/img/derivatives/iiif/dfvsfv/canvas/dfvsfv-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=4399.54541015625,4819.029296875,715.45458984375,619.0908203125"
+        }
+    },
+    "id": "2bb24f4c-0fe5-4b9c-88f0-a9255ae3bd46.json",
+    "motivation": "commenting"
+}
