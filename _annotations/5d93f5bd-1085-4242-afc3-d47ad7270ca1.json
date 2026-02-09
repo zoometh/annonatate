@@ -1,0 +1,45 @@
+---
+canvas: "https://iramat-apps.cnrs.fr/iiif/2/acies%2FSeax_sample_process.tif/full/full/0/default.jpg"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "sample 2",
+            "purpose": "identifying",
+            "creator": {
+                "id": "zoometh",
+                "name": "Thomas Huet"
+            },
+            "created": "2026-02-09T15:27:57.935Z",
+            "modified": "2026-02-09T15:28:06.265Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "mettalography",
+            "purpose": "tagging",
+            "creator": {
+                "id": "zoometh",
+                "name": "Thomas Huet"
+            },
+            "created": "2026-02-09T15:28:09.119Z",
+            "modified": "2026-02-09T15:28:12.988Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://iramat-apps.cnrs.fr/iiif/2/acies%2FSeax_sample_process.tif/full/full/0/default.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2702.955810546875,820.4992065429688,173.81982421875,177.3194580078125"
+        }
+    },
+    "id": "5d93f5bd-1085-4242-afc3-d47ad7270ca1.json",
+    "motivation": "commenting"
+}
