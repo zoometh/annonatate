@@ -1,0 +1,45 @@
+---
+canvas: "https://iramat-apps.cnrs.fr/iiif/2/numismatic%2F1986.416_obv.JPG/full/full/0/default.jpg"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "monogramme ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "zoometh",
+                "name": "Thomas Huet"
+            },
+            "created": "2026-02-09T14:04:10.541Z",
+            "modified": "2026-02-09T14:05:08.761Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "formulaire",
+            "purpose": "tagging",
+            "creator": {
+                "id": "zoometh",
+                "name": "Thomas Huet"
+            },
+            "created": "2026-02-09T14:04:52.097Z",
+            "modified": "2026-02-09T14:04:54.597Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://iramat-apps.cnrs.fr/iiif/2/numismatic%2F1986.416_obv.JPG/full/full/0/default.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=889.5145874023438,806.2828979492188,1697.7659301757812,635.8829956054688"
+        }
+    },
+    "id": "09341db6-c62e-4963-8c55-cca62272bc9e.json",
+    "motivation": "commenting"
+}
