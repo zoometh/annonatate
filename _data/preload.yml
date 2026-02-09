@@ -1,3 +1,9 @@
-images: []
+images:
+- added: '2026-02-09 13:59:41.674257'
+  iiif: false
+  thumbnail: https://iramat-apps.cnrs.fr/iiif/2/numismatic%2F1986.416_obv.JPG/full/full/0/default.jpg
+  title: ''
+  url: https://iramat-apps.cnrs.fr/iiif/2/numismatic%2F1986.416_obv.JPG/full/full/0/default.jpg
+  user: Thomas Huet
 settings: {}
 version: '2.1'
