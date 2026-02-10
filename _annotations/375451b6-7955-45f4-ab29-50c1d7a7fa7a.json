@@ -1,0 +1,34 @@
+---
+canvas: "https://iramat-apps.cnrs.fr/iiif/2/acies%2FSeax_sample_process.tif/full/full/0/default.jpg"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Backfill Sample 2",
+            "purpose": "commenting",
+            "creator": {
+                "id": "zoometh",
+                "name": "Thomas Huet"
+            },
+            "created": "2026-02-10T13:11:48.103Z",
+            "modified": "2026-02-10T13:12:06.369Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://iramat-apps.cnrs.fr/iiif/2/acies%2FSeax_sample_process.tif/full/full/0/default.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2204.827880859375,1121.4757080078125,220.48291015625,209.983642578125"
+        }
+    },
+    "id": "375451b6-7955-45f4-ab29-50c1d7a7fa7a.json",
+    "motivation": "commenting"
+}
