@@ -1,0 +1,34 @@
+---
+canvas: "https://iramat-apps.cnrs.fr/iiif/2/acies%2FSeax_sample_process.tif/full/full/0/default.jpg"
+order: 6
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Signs of wear related to use and sharpening",
+            "purpose": "commenting",
+            "creator": {
+                "id": "zoometh",
+                "name": "Thomas Huet"
+            },
+            "created": "2026-02-10T13:15:08.141Z",
+            "modified": "2026-02-10T13:15:18.518Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://iramat-apps.cnrs.fr/iiif/2/acies%2FSeax_sample_process.tif/full/full/0/default.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1089.5816650390625,268.7088928222656,1250.5689697265625,219.31622314453125"
+        }
+    },
+    "id": "3f104ad7-dfc1-4929-8a6d-a01fe8bf6936.json",
+    "motivation": "commenting"
+}
