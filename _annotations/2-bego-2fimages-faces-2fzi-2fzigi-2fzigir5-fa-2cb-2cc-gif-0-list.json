@@ -1,0 +1,9 @@
+---
+canvas_id: "https://iramat-apps.cnrs.fr/iiif/2/bego%2FImages_Faces%2FZI%2FZIGI%2FZIGIR5-Fa%2Cb%2Cc.gif/full/full/0/default.jpg"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/3/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "AnnotationPage",
+"items": [{{ annotations | join: ","}}] }
