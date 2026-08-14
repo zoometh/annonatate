@@ -1,0 +1,22 @@
+---
+canvas: "https://iramat-apps.cnrs.fr/iiif/2/bego%2FImages_Faces%2FZI%2FZIGI%2FZIGIR5-Fa%2Cb%2Cc.gif/full/full/0/default.jpg"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [],
+    "target": {
+        "source": {
+            "id": "https://iramat-apps.cnrs.fr/iiif/2/bego%2FImages_Faces%2FZI%2FZIGI%2FZIGIR5-Fa%2Cb%2Cc.gif/full/full/0/default.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2656.206298828125,992.2000122070312,437.112548828125,712.3875122070312"
+        }
+    },
+    "id": "cedb86eb-d9e2-4298-ad5c-32064f822e68.json",
+    "motivation": "commenting"
+}
