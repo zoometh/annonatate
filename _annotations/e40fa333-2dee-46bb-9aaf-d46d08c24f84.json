@@ -1,0 +1,24 @@
+---
+canvas: "https://iramat-apps.cnrs.fr/iiif/2/bego%2FPhotos_Roches%2FZI%2FZIGI%2FZIGIR4B%2FZIGIR4B.JPG/full/full/0/default.jpg"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [],
+    "target": {
+        "source": {
+            "id": "https://iramat-apps.cnrs.fr/iiif/2/bego%2FPhotos_Roches%2FZI%2FZIGI%2FZIGIR4B%2FZIGIR4B.JPG/full/full/0/default.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"206.04876708984375,423.3365783691406 1105.170654296875,2569.990234375 2417.796037168772,2020.1995365874616 1518.6741499617406,-126.4541194183978\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "e40fa333-2dee-46bb-9aaf-d46d08c24f84.json",
+    "motivation": "commenting"
+}
