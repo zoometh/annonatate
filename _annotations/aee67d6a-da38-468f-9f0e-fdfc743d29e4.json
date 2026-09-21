@@ -1,0 +1,22 @@
+---
+canvas: "https://iramat-apps.cnrs.fr/iiif/2/bego%2Ffaces%2FZX%2FZXGIII%2FZXGIIIR5%40l.gif/full/full/0/default.jpg"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [],
+    "target": {
+        "source": {
+            "id": "https://iramat-apps.cnrs.fr/iiif/2/bego%2Ffaces%2FZX%2FZXGIII%2FZXGIIIR5%40l.gif/full/full/0/default.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1753.0521240234375,2335.6767578125,607.5142822265625,770.617431640625"
+        }
+    },
+    "id": "aee67d6a-da38-468f-9f0e-fdfc743d29e4.json",
+    "motivation": "commenting"
+}
