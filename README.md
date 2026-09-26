@@ -1,0 +1,1 @@
+Use https://annonatate.fly.dev/ to create annotations (landing extent) on IIIF
