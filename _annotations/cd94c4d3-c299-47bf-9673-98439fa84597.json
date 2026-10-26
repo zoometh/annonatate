@@ -1,0 +1,22 @@
+---
+canvas: "https://iramat-apps.cnrs.fr/iiif/2/_test%2FBarre531anaimage.ptif/info.json"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [],
+    "target": {
+        "source": {
+            "id": "https://iramat-apps.cnrs.fr/iiif/2/_test%2FBarre531anaimage.ptif/info.json",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=33935.45703125,7957.466796875,571.046875,346.0888671875"
+        }
+    },
+    "id": "cd94c4d3-c299-47bf-9673-98439fa84597.json",
+    "motivation": "commenting"
+}
