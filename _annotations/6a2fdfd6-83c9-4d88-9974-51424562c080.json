@@ -1,0 +1,22 @@
+---
+canvas: "https://iramat-apps.cnrs.fr/iiif/2/bego%2Ffaces%2FZXVII%2FZXVIIGII%2FZXVIIGIIR64%40a-fig%2019-80-43-78.jpg/full/full/0/default.jpg"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [],
+    "target": {
+        "source": {
+            "id": "https://iramat-apps.cnrs.fr/iiif/2/bego%2Ffaces%2FZXVII%2FZXVIIGII%2FZXVIIGIIR64%40a-fig%2019-80-43-78.jpg/full/full/0/default.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2074.162109375,705.0135498046875,421.13525390625,426.8648681640625"
+        }
+    },
+    "id": "6a2fdfd6-83c9-4d88-9974-51424562c080.json",
+    "motivation": "commenting"
+}
