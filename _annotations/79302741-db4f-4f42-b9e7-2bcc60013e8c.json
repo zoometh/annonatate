@@ -1,0 +1,22 @@
+---
+canvas: "https://iramat-apps.cnrs.fr/iiif/2/bego%2Froches%2FZIV%2FZIVGI%2FZIVGIR10%40c%2FP7050206.JPG/full/full/0/default.jpg"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [],
+    "target": {
+        "source": {
+            "id": "https://iramat-apps.cnrs.fr/iiif/2/bego%2Froches%2FZIV%2FZIVGI%2FZIVGIR10%40c%2FP7050206.JPG/full/full/0/default.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=351.68780517578125,536.6634521484375,1281.2488403320312,1208.1951904296875"
+        }
+    },
+    "id": "79302741-db4f-4f42-b9e7-2bcc60013e8c.json",
+    "motivation": "commenting"
+}
