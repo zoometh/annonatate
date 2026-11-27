@@ -4,8 +4,20 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "6",
+            "purpose": "tagging",
+            "creator": {
+                "id": "zoometh",
+                "name": "Thomas Huet"
+            },
+            "created": "2026-11-27T06:05:11.640Z"
+        }
+    ],
+    "id": "95abf0d0-c03f-483b-9bca-23d096f66281.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "id": "https://iramat-apps.cnrs.fr/iiif/2/metallograph%2Fmeung%2Fobj%2FM1avat.ptif/full/pct:50/0/default.jpg",
@@ -14,9 +26,8 @@ order: 6
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1461.1378173828125,14740.87109375,569.0908203125,672.7275390625"
+            "value": "xywh=1461.1378173828125,14804.9755859375,534.1287841796875,608.623046875"
         }
     },
-    "id": "95abf0d0-c03f-483b-9bca-23d096f66281.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
