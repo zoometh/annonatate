@@ -1,0 +1,33 @@
+---
+canvas: "https://iramat-apps.cnrs.fr/iiif/2/metallograph%2Fmeung%2Fobj%2FM1avat.ptif/full/pct:50/0/default.jpg"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "3",
+            "purpose": "tagging",
+            "creator": {
+                "id": "zoometh",
+                "name": "Thomas Huet"
+            },
+            "created": "2026-11-27T05:59:58.383Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://iramat-apps.cnrs.fr/iiif/2/metallograph%2Fmeung%2Fobj%2FM1avat.ptif/full/pct:50/0/default.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2525.912841796875,6236.5947265625,571.82958984375,733.05029296875"
+        }
+    },
+    "id": "d485a709-3a74-4f44-a55a-2b6048dcb513.json",
+    "motivation": "commenting"
+}
