@@ -4,30 +4,31 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "55",
-            "purpose": "commenting",
+            "created": "2026-11-27T06:02:56.483Z",
             "creator": {
                 "id": "zoometh",
                 "name": "Thomas Huet"
             },
-            "created": "2026-11-27T06:02:56.483Z",
-            "modified": "2026-11-27T06:03:03.750Z"
+            "modified": "2026-11-27T06:03:03.750Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "55"
         },
         {
-            "type": "TextualBody",
-            "value": "5",
-            "purpose": "tagging",
+            "created": "2026-11-27T06:03:00.394Z",
             "creator": {
                 "id": "zoometh",
                 "name": "Thomas Huet"
             },
-            "created": "2026-11-27T06:03:00.394Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "5"
         }
     ],
+    "id": "8ac3dc12-21be-4e5a-8e3c-24093bcd8952.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "id": "https://iramat-apps.cnrs.fr/iiif/2/metallograph%2Fmeung%2Fobj%2FM1avat.ptif/full/pct:50/0/default.jpg",
@@ -36,9 +37,8 @@ order: 5
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2581.332275390625,12680.3837890625,1058.0107421875,1241.90234375"
+            "value": "xywh=2581.332275390625,12680.3837890625,1047.56689453125,1271.9404296875"
         }
     },
-    "id": "8ac3dc12-21be-4e5a-8e3c-24093bcd8952.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
