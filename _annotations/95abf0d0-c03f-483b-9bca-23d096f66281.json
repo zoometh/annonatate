@@ -1,0 +1,22 @@
+---
+canvas: "https://iramat-apps.cnrs.fr/iiif/2/metallograph%2Fmeung%2Fobj%2FM1avat.ptif/full/pct:50/0/default.jpg"
+order: 6
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [],
+    "target": {
+        "source": {
+            "id": "https://iramat-apps.cnrs.fr/iiif/2/metallograph%2Fmeung%2Fobj%2FM1avat.ptif/full/pct:50/0/default.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1461.1378173828125,14740.87109375,569.0908203125,672.7275390625"
+        }
+    },
+    "id": "95abf0d0-c03f-483b-9bca-23d096f66281.json",
+    "motivation": "commenting"
+}
